@@ -1,7 +1,7 @@
 # Final Third
 ### *In the Final Third, every move matters.*
 
-Final Third is a Football Club Management and Tracking System built with the MERN stack following strict MVC architecture. It enables structured communication and management between admins, coaches, and players — covering club and roster management, match planning, performance tracking, and coach–player communication.
+Final Third is a Football Club Management and Tracking System built with the MERN stack following strict MVC architecture. It enables structured communication and management between admins, coaches and players which covers club and roster management, match planning, performance tracking, and coach–player communication.
 
 ---
 
@@ -27,7 +27,7 @@ Final Third is a Football Club Management and Tracking System built with the MER
 - Role-based registration and login for Coach and Player
 - Separate Admin login at a protected route
 - JWT issued on login, stored as a Bearer token per session
-- Multi-session support — each browser tab holds its own independent session
+- Multi-session support; each browser tab holds its own independent session
 - View and edit own profile with Cloudinary image upload
 
 ### Club & Roster Management
@@ -41,14 +41,14 @@ Final Third is a Football Club Management and Tracking System built with the MER
 ### Match Management
 - Admin schedules matches between two clubs in the system
 - Coach sets starting lineup (max 11) and substitutes per match
-- Admin records final match result — locked once submitted
+- Admin records final match result
 - Coach and Player view upcoming matches with lineups from their club's perspective
 - Coach and Player view paginated match history with results
 
 ### Performance & Statistics
-- Admin logs per-match player stats (goals, assists, yellow cards, red cards) — locked once submitted
+- Admin logs per-match player stats (goals, assists, yellow cards, red cards) locked once submitted
 - Player views personal career stats dashboard with recharts bar chart and per-match breakdown
-- Coach views squad performance summary — W/D/L record, league position, and squad leaderboard — with recharts chart
+- Coach views squad performance summary: W/D/L record, league position, and squad leaderboard with recharts chart
 - Admin views system-wide top scorers and top assist providers leaderboard
 - Admin views club standings table with full W/D/L and goal records, filterable by league
 
@@ -57,7 +57,7 @@ Final Third is a Football Club Management and Tracking System built with the MER
 - Player views announcements feed ordered by most recent
 - Coach sends private feedback to individual players
 - Player views personal feedback feed
-- Coach views full player profile — stats summary, match participation history, and feedback history — with option to send feedback directly from the page
+- Coach views full player profile, stats summary, match participation history, and feedback history with option to send feedback directly from the page
 
 ---
 
@@ -142,7 +142,7 @@ The app runs at `http://localhost:5173` and the server at `http://localhost:5000
 
 | Role | Access |
 |---|---|
-| **Admin** | Full system control — leagues, clubs, rosters, matches, stats, user management |
+| **Admin** | Full system control; leagues, clubs, rosters, matches, stats, user management |
 | **Coach** | Match lineup planning, squad communication, player profile viewing |
 | **Player** | Personal stats, match schedules and lineups, announcements, personal feedback |
 
